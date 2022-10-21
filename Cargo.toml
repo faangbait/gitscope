@@ -1,0 +1,9 @@
+[package]
+name = "gitscope"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+octocrab = "0.17"
+tokio = { version = "1", features = ["full"] }
+jsonwebtoken = "8.1"
